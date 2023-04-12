@@ -12,7 +12,9 @@ import java.util.TreeSet;
  */
 public class AvoidFlooding {
     public static void main(String[] args) {
-
+        StringBuilder stringBuilder = new StringBuilder("01234567");
+        stringBuilder.delete(3, 7);
+        System.out.println(stringBuilder);
     }
 
     public int[] avoidFlood(int[] rains) {

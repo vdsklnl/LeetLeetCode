@@ -1,7 +1,5 @@
 package medium;
 
-import java.util.List;
-
 /**
  * @author vdsklnl
  * @create 2022-10-17 15:37
@@ -22,6 +20,7 @@ public class SortList {
         if (head == null) {
             return head;
         }
+        //两个连接时，需要切开成单独个体再组合
         if (head.next == tail) {
             head.next = null;
             return head;

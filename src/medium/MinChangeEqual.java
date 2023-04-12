@@ -38,7 +38,7 @@ public class MinChangeEqual {
         int[] c = new int[6];
         for (int i = 0; i < 6; i++) {
             c[i] += c1[i];
-            c[6 - i] += c2[i];
+            c[5 - i] += c2[i];
         }
         int res = 0;
         for (int i = 5; i >= 1 && diff > 0; i--) {
