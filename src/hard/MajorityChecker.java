@@ -67,7 +67,7 @@ public class MajorityChecker {
     }
 
     public static void main(String[] args) {
-        MajorityChecker mc = new MajorityChecker(new int[]{1, 2, 3});
-        mc.query(0, 2, 2);
+        String s = "08";
+        System.out.println(Integer.parseInt(s));
     }
 }
